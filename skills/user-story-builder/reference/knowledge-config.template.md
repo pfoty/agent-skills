@@ -70,7 +70,7 @@ The specific, contextual roles this project's stories should use in "As a …". 
 ```
 roles:
   # - Regional Sales Manager        (internal)
-  # - Registered dealer bidder      (external end user)
+  # - Registered customer           (external end user)
   # - <project personas>
 pm_has_repo_access:  true | false    # false => express requirements in business/behavioral terms only
 ```
