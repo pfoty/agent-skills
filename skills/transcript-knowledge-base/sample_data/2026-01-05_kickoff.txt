@@ -1,0 +1,13 @@
+# Project Atlas Kickoff
+Date: 2026-01-05
+Participants: Maya, Devin, Priya
+
+[00:00:05] Maya: Welcome everyone. The goal today is to align on the Atlas launch scope.
+[00:00:30] Devin: We decided to target the EU region first because that's where demand is highest.
+[00:01:10] Priya: I'm concerned about the data residency risk if we launch in the EU without the new storage layer.
+[00:01:45] Maya: Good point. That's a real risk. We need the storage layer to be GDPR compliant before launch.
+[00:02:20] Devin: I'll draft the storage compliance plan by 2026-01-19.
+[00:02:50] Priya: The launch depends on the security review passing.
+[00:03:15] Maya: Can we hit a March launch date?
+[00:03:30] Devin: I think March is tentative until we see the storage layer estimates.
+[00:04:00] Maya: Okay, decision: we are going with the EU-first rollout, tentatively in March.

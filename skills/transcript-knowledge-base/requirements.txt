@@ -1,0 +1,6 @@
+# The core library and tests run on the Python standard library only
+# (sqlite3, csv, json, re, hashlib, argparse). No third-party packages required.
+
+# Optional extras:
+# pyyaml>=6.0      # only if you want YAML config files (JSON works without it)
+# pytest>=7.0      # only to run the test suite with `pytest` instead of unittest

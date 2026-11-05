@@ -1,0 +1,27 @@
+# Example configuration for the knowledge index. Copy to a .json (no dependency)
+# or .yaml (needs PyYAML) file and pass with --config. All fields optional.
+
+title: "Knowledge Index"
+intro: "Durable rules and decisions distilled from project transcripts, each cited to its source meeting."
+
+# Output deliverable + lightweight state cache (NOT a database — plain files).
+index_path: "knowledge-index.md"
+state_path: "knowledge-index.state.json"
+workdir: ".knowledge-index.work"
+
+# Transcript file types to scan. .docx is the primary Copilot/Teams export.
+supported_extensions: [".docx", ".txt", ".md", ".json", ".vtt", ".srt", ".csv"]
+recursive: true
+
+# Near-duplicate statements (Jaccard over keywords) are merged into one item with
+# multiple sources rather than re-added. Lower = more aggressive merging.
+dedup_threshold: 0.6
+
+# Optional seed taxonomy: stable category order + id prefixes. Omit to let
+# categories/prefixes emerge from the items. Seeding keeps ids stable across runs
+# and lets the output mirror an existing rules document.
+categories:
+  - {name: "Authentication & Access", prefix: "AUTH"}
+  - {name: "Users & Roles", prefix: "USER"}
+  - {name: "Bidding", prefix: "BID"}
+  - {name: "Notifications", prefix: "NOTIF"}

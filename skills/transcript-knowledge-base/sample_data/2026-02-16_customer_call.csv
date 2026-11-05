@@ -1,0 +1,8 @@
+speaker,timestamp,text
+Maya,00:00:02,Thanks for joining. We want your feedback on the Atlas rollout plan.
+Customer,00:00:18,I like the EU-first approach but I'm worried about the April timeline slipping.
+Maya,00:00:40,Understood. That's a risk we are tracking.
+Customer,00:01:05,One requirement for us is that the system must support SSO at launch.
+Devin,00:01:30,I'll add SSO support to the launch scope and confirm feasibility by 2026-02-23.
+Customer,00:01:55,Also, will there be an audit log?
+Devin,00:02:10,Yes, an audit log will be included in the first release.

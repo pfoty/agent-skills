@@ -1,0 +1,17 @@
+{
+  "title": "Atlas Planning Sync",
+  "date": "2026-01-19",
+  "language": "en",
+  "source": "fireflies",
+  "participants": ["Maya", "Devin", "Priya"],
+  "turns": [
+    {"speaker": "Maya", "start": "00:00:03", "text": "Quick follow up on the storage compliance plan."},
+    {"speaker": "Devin", "start": "00:00:20", "text": "The storage compliance plan is done. I'll now own the security review and get it scheduled by 2026-02-02."},
+    {"speaker": "Priya", "start": "00:00:55", "text": "The risk about data residency in the EU is still open until the security review passes."},
+    {"speaker": "Maya", "start": "00:01:30", "text": "We decided to go with the EU-first rollout. That's final now."},
+    {"speaker": "Devin", "start": "00:02:05", "text": "There's an issue: the staging environment is broken and blocking the review."},
+    {"speaker": "Priya", "start": "00:02:40", "text": "Who is fixing staging?"},
+    {"speaker": "Devin", "start": "00:02:50", "text": "I'll fix the staging environment today."},
+    {"speaker": "Maya", "start": "00:03:20", "text": "We need the launch to support multi-language from day one."}
+  ]
+}
